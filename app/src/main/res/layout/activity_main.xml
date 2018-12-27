@@ -7,75 +7,44 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/tv_main_xjzk7"
+        android:id="@+id/tv_main_xh"
         android:layout_width="112dp"
         android:layout_height="43dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:ems="10"
-        android:hint="民族"
+        android:hint="学号"
         android:inputType="textPersonName"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_main_xjzk6"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_xh" />
-
-    <EditText
-        android:id="@+id/tv_main_xjzk6"
-        android:layout_width="112dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:hint="性别"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toEndOf="@+id/tv_main_xm"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_bj" />
-
-    <EditText
-        android:id="@+id/tv_main_xjzk5"
-        android:layout_width="112dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginRight="14dp"
-        android:ems="10"
-        android:hint="系别"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toStartOf="@+id/tv_main_bj"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_main_bj"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/tv_main_xjzk3"
+        android:id="@+id/tv_main_jg"
         android:layout_width="112dp"
         android:layout_height="43dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="7dp"
         android:ems="10"
         android:hint="籍贯"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/tv_main_jtzz"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_csrq" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_main_xm" />
 
     <EditText
-        android:id="@+id/tv_main_xjzk4"
+        android:id="@+id/tv_main_jtzz"
         android:layout_width="112dp"
         android:layout_height="43dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="7dp"
         android:ems="10"
         android:hint="家庭住址"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toEndOf="@+id/tv_main_xjzk3"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_xjzk2" />
+        app:layout_constraintEnd_toStartOf="@+id/tv_main_ssh"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_main_jg"
+        app:layout_constraintTop_toBottomOf="@+id/tv_main_bj" />
 
     <TextView
         android:id="@+id/textView"
@@ -99,194 +68,113 @@
         android:layout_width="112dp"
         android:layout_height="43dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginRight="14dp"
         android:ems="10"
         android:hint="班级"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toStartOf="@+id/tv_main_xh"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_main_xm"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/tv_main_xm"
         android:layout_width="112dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_height="43dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="姓名"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/tv_main_bj"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_xjzk5" />
-
-    <EditText
-        android:id="@+id/tv_main_xh"
-        android:layout_width="116dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:ems="10"
-        android:hint="学号"
-        android:inputType="textPersonName"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <EditText
-        android:id="@+id/tv_main_csrq"
-        android:layout_width="112dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:hint="出生日期"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_xm" />
-
-    <EditText
-        android:id="@+id/tv_main_xjzk"
-        android:layout_width="112dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:ems="10"
-        android:hint="学籍状况"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_main_xjzk2"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_xjzk7" />
-
-    <EditText
-        android:id="@+id/tv_main_xjzk2"
-        android:layout_width="112dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:hint="入学日期"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toEndOf="@+id/tv_main_csrq"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_xjzk6" />
 
     <EditText
         android:id="@+id/tv_main_ssh"
         android:layout_width="112dp"
         android:layout_height="43dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginTop="7dp"
         android:ems="10"
         android:hint="宿舍号"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_main_xjzk4"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_xjzk" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_main_jtzz"
+        app:layout_constraintTop_toBottomOf="@+id/tv_main_xh" />
 
     <Button
         android:id="@+id/btn_main_insert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="7dp"
-        android:layout_marginLeft="7dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginTop="4dp"
         android:background="@android:color/holo_blue_dark"
         android:text="添加"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_main_display"
         app:layout_constraintEnd_toStartOf="@+id/btn_main_query"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_xjzk3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_main_jg" />
 
     <Button
         android:id="@+id/btn_main_query"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginTop="4dp"
         android:background="@android:color/holo_green_light"
         android:text="查询"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_main_display"
         app:layout_constraintEnd_toStartOf="@+id/btn_main_alter"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btn_main_insert"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_xjzk4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_main_jg" />
 
     <Button
         android:id="@+id/btn_main_alter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="4dp"
         android:background="@android:color/holo_orange_dark"
         android:text="修改"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_main_display"
         app:layout_constraintEnd_toStartOf="@+id/btn_main_delete"
-        app:layout_constraintStart_toEndOf="@+id/btn_main_query" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_main_query"
+        app:layout_constraintTop_toBottomOf="@+id/tv_main_jtzz" />
 
     <Button
         android:id="@+id/btn_main_delete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
+        android:layout_marginTop="4dp"
         android:background="@android:color/holo_purple"
         android:text="删除"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btn_main_alter"
         app:layout_constraintTop_toBottomOf="@+id/tv_main_ssh" />
 
     <TextView
         android:id="@+id/tv_main_display"
-        android:layout_width="368dp"
-        android:layout_height="83dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="38dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="1dp"
-        android:background="@android:color/background_light"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorButtonNormal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.687"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_main_delete"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_main_delete" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="273dp"
-        android:layout_height="116dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_width="298dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/gzy" />
