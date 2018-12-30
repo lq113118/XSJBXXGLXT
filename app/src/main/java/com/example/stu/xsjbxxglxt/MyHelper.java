@@ -9,6 +9,7 @@ public class MyHelper extends SQLiteOpenHelper {
         super(context, name, factory, version);
     }
 
+
     @Override
     public void onCreate(SQLiteDatabase db) {
         String sql="create table information (_id integer primary key autoincrement,name varchar(20),phone integer)";
