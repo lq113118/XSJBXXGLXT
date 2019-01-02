@@ -1,19 +1,18 @@
 package com.example.stu.xsjbxxglxt;
+
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.support.annotation.Nullable;
 
-public class MyHelper extends SQLiteOpenHelper {
-    public MyHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
+class MyHelper extends SQLiteOpenHelper {
+    public MyHelper(Context context) {
+        super(context, "itcast.db", null, 1);
     }
-
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String sql="create table information (_id integer primary key autoincrement,name varchar(20),phone integer)";
-        db.execSQL(sql);
+        db.execSQL("CREATE TABLE information(_id INTEGER PRIMARY KEY AUTOINCREMENT,xm VARCHAR(20),bj VARCHAR(20),xh VARCHAR(20),jg VARCHAR(20),jtzz VARCHAR(20),ssh VARCHAR(20))");
+
 
     }
 
